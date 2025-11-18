@@ -1,8 +1,8 @@
-﻿#🧠 AI-Based Question Paper Generator
+﻿#  🧠 AI-Based Question Paper Generator
 
 An intelligent AI-powered automation system designed to generate exam question papers from syllabus PDFs and study materials using RAG (Retrieval-Augmented Generation), vector search, and LLMs (Large Language Models).
 
-#🚩 Problem Statement
+# 🚩 Problem Statement
 
 Creating question papers manually requires deep subject understanding and careful mapping of syllabus topics to question difficulty. This process is:
 
@@ -16,7 +16,7 @@ Not scalable
 
 This system automates the process using AI, ensuring faster, accurate, and syllabus-aligned question generation.
 
-#🎯 Objective
+# 🎯 Objective
 
 To automate question paper generation by:
 
@@ -26,19 +26,19 @@ To automate question paper generation by:
 ✔ Providing multiple formats (MCQ, Short Answer, Long Answer)
 ✔ Allowing difficulty-level customization
 
-#🔗 Application Link
+# 🔗 Application Link
 
 🚀 Live Web App: (Add your link here once hosted — e.g., Render, Railway, Heroku, AWS)
 
 Example placeholder: https://question-paper-ai-app.demo.com
 
-#🎥 Descriptive Video / Demo
+# 🎥 Descriptive Video / Demo
 
 📽 Video Walkthrough: (Add Drive / YouTube link)
 
 Example placeholder: https://youtu.be/demo-video-link
 
-#📂 Dataset / Input Sources
+# 📂 Dataset / Input Sources
 
 Since this project is document-driven, the system works with:
 
@@ -50,11 +50,11 @@ Since this project is document-driven, the system works with:
 
 Data is embedded and indexed inside a vector store.
 
-#🧠 Domain
+# 🧠 Domain
 
 📍 Education Technology | NLP | Generative AI | Automation
 
-#🌟 Key Features
+# 🌟 Key Features
 Feature	Description
 📑 PDF Text Extraction	Reads and preprocesses syllabus content
 🔍 Vector Search	Uses semantic similarity instead of keyword matching
@@ -64,7 +64,7 @@ Feature	Description
 🌐 Web UI	Flask-based user interface for quick interaction
 🧱 Modular Architecture	Pluggable models and embeddings
 
-#🛠 Tech Stack
+# 🛠 Tech Stack
 Component	Tools
 Main Language	Python
 Framework	LangChain, Flask
@@ -73,7 +73,7 @@ NLP Toolkit	NLTK
 LLM	OpenAI / Gemini / Llama2 (configurable)
 UI	HTML, CSS, Flask Templates
 
-#🗄 System Architecture
+# 🗄 System Architecture
          ┌───────────────┐
          │  PDF Upload    │
          └───────┬───────┘
@@ -99,7 +99,7 @@ UI	HTML, CSS, Flask Templates
         │ Generated Output  │
         └───────────────────┘
 
-#🧪 Workflow
+# 🧪 Workflow
 
 Upload syllabus PDF
 
@@ -113,20 +113,20 @@ Generate formatted question paper
 
 Export / View output in UI
 
-#📦 Installation & Execution
-# Clone repository
+# 📦 Installation & Execution
+#Clone repository
 git clone https://github.com/yourusername/AI-QuestionPaper-Generator.git
 
-# Navigate folder
+#Navigate folder
 cd AI-QuestionPaper-Generator
 
-# Install dependencies
+#Install dependencies
 pip install -r requirements.txt
 
-# Run web app
+#Run web app
 python app.py
 
-#🏗 Future Enhancements
+# 🏗 Future Enhancements
 
 📌 Export to PDF & DOCX automatically
 
@@ -136,7 +136,7 @@ python app.py
 
 🎭 User role system (Student / Teacher / Admin)
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
 👋 Shreyas Deshingkar
 📍 Satara, Maharashtra, India
