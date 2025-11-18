@@ -1,0 +1,11 @@
+myenv/
+# Python junk files
+__pycache__/
+*.pyc
+
+# Environment / secret files
+.env
+
+# VS Code / IDE stuff (optional)
+.vscode/
+.idea/
