@@ -348,8 +348,3 @@ from ans_gen import generate_answer
 answers_path = generate_answer(file_path) # So it will automatically consider the latest question paper generated
 print("Answers saved at:", answers_path)
 
-# choice = input('Enter 1 for generating question paper and 2 for evaluating answer key: ')
-# if choice == '1':
-#     gen_qp()
-# else:
-#     print('Choice not valid')
