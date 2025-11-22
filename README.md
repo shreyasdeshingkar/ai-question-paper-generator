@@ -28,15 +28,15 @@ To automate question paper generation by:
 
 # 🔗 Application Link
 
-🚀 Live Web App: (Add your link here once hosted — e.g., Render, Railway, Heroku, AWS)
 
-Example placeholder: https://question-paper-ai-app.demo.com
 
 # 🎥 Descriptive Video / Demo
 
-📽 Video Walkthrough: (Add Drive / YouTube link)
 
-Example placeholder: https://youtu.be/demo-video-link
+
+https://github.com/user-attachments/assets/d0a60da4-f6b4-4418-96e3-a2ebdb580199
+
+
 
 # 📂 Dataset / Input Sources
 
