@@ -9,4 +9,5 @@ requests
 streamlit
 fitz
 PyMuPDF
-
+flask
+reportlab
