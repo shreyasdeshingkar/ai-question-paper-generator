@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <title>AI Question Paper Generator</title>
+</head>
+<body>
+  <h1>AI-Based Question Paper & Answer Generator</h1>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <ul>
+        {% for category, message in messages %}
+          <li><strong>{{ category }}:</strong> {{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+
+  <form method="POST" enctype="multipart/form-data">
+    <label>Syllabus PDF:</label>
+    <input type="file" name="syllabus_pdf" accept="application/pdf" required><br><br>
+
+    <label>Book / Notes PDF:</label>
+    <input type="file" name="book_pdf" accept="application/pdf" required><br><br>
+
+    <button type="submit">Upload & Generate QP + Answer Key</button>
+  </form>
+
+  {% if qp_file %}
+  <hr>
+  <h2>Downloads</h2>
+  <p>
+    Question Paper (PDF):
+    <a href="{{ url_for('download_qp', filename=qp_file) }}">{{ qp_file }}</a>
+  </p>
+  <p>
+    Answer Key (PDF):
+    <a href="{{ url_for('download_ans', filename=ans_file) }}">{{ ans_file }}</a>
+  </p>
+{% endif %}
+
+</body>
+</html>
