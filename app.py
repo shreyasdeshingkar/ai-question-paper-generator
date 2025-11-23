@@ -364,5 +364,7 @@ def download_ans(filename):
     return send_from_directory(ANS_FOLDER, filename, as_attachment=True)
 
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Render sets PORT
+    app.run(host="0.0.0.0", port=port, debug=False)
